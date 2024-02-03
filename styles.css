@@ -366,7 +366,7 @@ img {
 @media only screen and (max-width: 768px) {
 
     .banner img {
-        margin: 35px;     
+        margin: 0px;     
     }
 
 
