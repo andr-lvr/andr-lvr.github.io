@@ -365,6 +365,11 @@ img {
 /* For smartphones */
 @media only screen and (max-width: 768px) {
 
+    .banner img {
+        margin: 42px;     
+    }
+
+
     body{
         background-color: #eee8e8;
     }
