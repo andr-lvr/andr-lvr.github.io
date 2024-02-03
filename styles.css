@@ -304,13 +304,14 @@ section {
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+
 }
 
 
 /* Left div styles */
 .left {
   width: 50%;
-
+  background-color: #fff;
   border-radius: 20px 0px 0px 20px;
 border: #00000020 1px solid;
 padding: 60px;
@@ -332,7 +333,7 @@ padding: 60px;
 }
 
 .links{
-   text-decoration: none;
+   /*text-decoration: none;*/
    color: #000000;
    font-size: 18px;
    font-family: 'Roboto', sans-serif;
@@ -347,7 +348,7 @@ padding: 60px;
    height: auto;
    padding: 20px;
    text-align: center;
-   
+   background-color: #fff;
 }
 
 a{
@@ -363,6 +364,11 @@ img {
 
 /* For smartphones */
 @media only screen and (max-width: 768px) {
+
+    body{
+        background-color: #f2efeb;
+    }
+
     header .container {
         flex-direction: column;
         align-items: flex-start;
@@ -392,6 +398,7 @@ img {
     .inner-contacts {
         width: 100%;
         border-radius: 20px;
+        margin-top: 15px;
     }
 
     header{
