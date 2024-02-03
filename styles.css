@@ -420,4 +420,10 @@ img {
     .google-map{
         border-radius: 5px;
     }
+
+    .order-button {
+        padding: 15px 40px;
+        font-size: large;
+    }
+
 }
