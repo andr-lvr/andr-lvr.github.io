@@ -160,7 +160,7 @@ header .container nav ul li a.active::after {
     background-color: #ffffff30;
     color: #fff;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 20px;
     font-size: 18px;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
     backdrop-filter: blur(2px);
@@ -216,7 +216,7 @@ header .container nav ul li a.active::after {
     transition:  0.3s ease;
     padding: 35px;
 
-    border-radius: 60px;
+    border-radius: 20px;
     
     border: #00000020 1px solid;
     /*box-shadow:  0px 0px 13px 0px rgba(0,0,0,0.17);*/
@@ -228,7 +228,7 @@ header .container nav ul li a.active::after {
     height: auto;
     margin-bottom: 10px;
 
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 
@@ -311,14 +311,14 @@ section {
 .left {
   width: 50%;
 
-  border-radius: 60px 0px 0px 60px;
+  border-radius: 20px 0px 0px 20px;
 border: #00000020 1px solid;
 padding: 60px;
 }
  
 
 .img-right {
-    border-radius: 0px 60px 60px 0px;
+    border-radius: 0px 20px 20px 0px;
     width: 50%;
 }
 
@@ -328,7 +328,7 @@ padding: 60px;
     height: 400px; /* Adjust the height as needed */
     border: none; /* Remove the border */
     margin-top: 30px;
-    border-radius: 60px ;
+    border-radius: 20px ;
 }
 
 .links{
@@ -341,7 +341,7 @@ padding: 60px;
 
 .inner-contacts
 {
-    border-radius: 60px ;
+    border-radius: 20px ;
     border: #00000020 1px solid;
    width: 23%;
    height: auto;
@@ -391,7 +391,12 @@ img {
     .links,
     .inner-contacts {
         width: 100%;
-        border-radius: 60px;
+        border-radius: 20px;
+    }
+
+    header{
+        visibility: hidden;
+        height: 0px;
     }
 
     .img-right{
@@ -403,5 +408,9 @@ img {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    .google-map{
+        border-radius: 5px;
     }
 }
