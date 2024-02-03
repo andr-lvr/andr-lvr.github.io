@@ -336,6 +336,7 @@ padding: 60px;
    color: #000000;
    font-size: 18px;
    font-family: 'Roboto', sans-serif;
+    width: 80%;
 }
 
 .inner-contacts
@@ -343,7 +344,7 @@ padding: 60px;
     border-radius: 60px ;
     border: #00000020 1px solid;
    width: 23%;
-   height: 100px;
+   height: auto;
    padding: 20px;
    text-align: center;
    
@@ -356,4 +357,51 @@ a{
 
 img {
     object-fit: cover;
+}
+
+
+
+/* For smartphones */
+@media only screen and (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .container nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+    }
+
+    .order-button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .left,
+    .img-right,
+    .links,
+    .inner-contacts {
+        width: 100%;
+        border-radius: 60px;
+    }
+
+    .img-right{
+        visibility: hidden;
+        height: 0px;
+    }
+
+    .left-right-box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
