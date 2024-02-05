@@ -23,7 +23,7 @@ h2 {
 
 h3 {
     font-size: 22px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 
@@ -364,7 +364,6 @@ img {
 
 /* For smartphones */
 @media only screen and (max-width: 768px) {
-
     body{
         background-color: #f4f4f4;
     }
